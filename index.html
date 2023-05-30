@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME ACHA! - BUSCA DE ENDEREÇO POR CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <header class="formatacao">
+        <h1>ME ACHA!</h1>
+        <div id="divDeTexto">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</div>        
+        <span class="material-icons">travel_explore</span>
+    </header>    
+    <main class="formatacao">        
+        <form class="formatacao" name="formulario" action="" method="post">
+            <label for="cep">Cep</label>
+            <input value="" type="text" name="cep" id="cep">
+            <label for="logradouro">Rua</label>
+            <input value="" type="text" name="logradouro" id="logradouro">
+            <label for="bairro">Bairro</label>
+            <input value="" type="text" name="bairro" id="bairro">
+            <label for="localidade">Cidade</label>
+            <input value="" type="text" name="localidade" id="localidade">
+            <label for="uf">Estado</label>
+            <input value="" type="text" name="uf" id="uf">
+            <input id="buscar" type="button" value="BUSCAR">
+        </form>
+    </main>
+</body>
+</html>
